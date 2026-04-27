@@ -141,7 +141,9 @@
       "Bash(cmd /c \"ls -la C:\\\\Users\\\\dsgro\\\\apex\\\\\")",
       "PowerShell(node --version)",
       "PowerShell(npm --version)",
-      "PowerShell(npm list -g vercel 2>$null)"
+      "PowerShell(npm list -g vercel 2>$null)",
+      "PowerShell(npm install -g vercel 2>&1)",
+      "PowerShell(vercel --version)"
     ]
   }
 }
