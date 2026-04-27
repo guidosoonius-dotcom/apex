@@ -1,0 +1,8 @@
+{
+  "name": "apex-console",
+  "version": "1.0.0",
+  "description": "APEX AI-native strategy consulting console",
+  "scripts": {
+    "build": "echo 'Static site — no build step'"
+  }
+}
