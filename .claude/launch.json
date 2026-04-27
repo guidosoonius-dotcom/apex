@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "apex-console",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["console/proxy.py"],
+      "port": 3000,
+      "autoPort": false
+    }
+  ]
+}

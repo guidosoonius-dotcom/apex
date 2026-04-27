@@ -1,0 +1,149 @@
+{
+  "md": {
+    "id": "agent_011CaBmZioH95VMexKNcgKCG",
+    "name": "Managing Director",
+    "model": "claude-opus-4-6",
+    "tier": "1",
+    "description": "Top-level orchestrator. Parses briefs, selects engagement config, assigns tasks via Task Objects, enforces all quality gates."
+  },
+  "ep": {
+    "id": "agent_011CaBmZmNK5MXoHJq57b3UB",
+    "name": "Engagement Partner",
+    "model": "claude-opus-4-6",
+    "tier": "1",
+    "description": "Senior strategic reviewer. Challenges direction at Gate H, Gate D, and G2. Produces EP Review Memo with Pass/Conditional/Rework verdict."
+  },
+  "em": {
+    "id": "agent_011CaBmZoGQw7vFNXheTwgpn",
+    "name": "Engagement Manager",
+    "model": "claude-sonnet-4-6",
+    "tier": "2",
+    "description": "PM, synthesis lead, narrative owner. Assembles Tier 3+4 outputs into client narrative using the Strategic Insight Memo as spine."
+  },
+  "eda": {
+    "id": "agent_011CaBmZq16dPFCCC3TFFW1c",
+    "name": "Engagement Design Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "2",
+    "description": "Designs every engagement: Methodology Brief, Approach Document, and Engagement Hypothesis. Runs after KM retrieval; feeds Gate H."
+  },
+  "wsl": {
+    "id": "agent_011CaBmZrVPgmoHmjdnBDoKg",
+    "name": "Workshop & Stakeholder Lead",
+    "model": "claude-sonnet-4-6",
+    "tier": "2",
+    "description": "Designs co-creation workshop packs: facilitator guides, participant workbooks, and structured output capture templates as .pptx."
+  },
+  "sr": {
+    "id": "agent_011CaBmZtE4NnmKMj9EBGCr6",
+    "name": "Senior Researcher",
+    "model": "claude-sonnet-4-6",
+    "tier": "3",
+    "description": "General external intelligence engine. Market sizing, trend analysis, best-practice scanning. Produces structured Research Notes."
+  },
+  "sa": {
+    "id": "agent_011CaBmZumpyMpK3DfxZ87Di",
+    "name": "Sector Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "3",
+    "description": "Deep sector specialist configurable at intake. Produces Sector Intelligence Brief; benchmarks client against sector peers."
+  },
+  "ci": {
+    "id": "agent_011CaBmZwWWAS5wMM9mwKE8i",
+    "name": "Competitive Intelligence Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "3",
+    "description": "Competitor mapping and benchmarking. Profiles top 3-5 competitors across strategy, digital maturity, AI adoption, and market position."
+  },
+  "rc": {
+    "id": "agent_011CaBmZyBTeRkXZ4cDM3xLw",
+    "name": "Regulatory & Compliance Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "3",
+    "description": "Regulatory landscape specialist. EU AI Act, GDPR, sectoral regulation. Compliance Calendar. Mandatory caveat on every output."
+  },
+  "fa": {
+    "id": "agent_011CaBmZzZZmmkmYNbEa6VaD",
+    "name": "Financial Analyst Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "4",
+    "description": "Business cases, NPV, ROI, sensitivity analysis in Python/openpyxl. All arithmetic in code. Conservative bias; hard/soft benefit separation."
+  },
+  "oma": {
+    "id": "agent_011CaBma2PCDMomB2LHHic3k",
+    "name": "Operating Model Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "4",
+    "description": "Target operating models, RACI matrices, AI governance frameworks, CoE design, AI lifecycle process. Output as .pptx."
+  },
+  "dta": {
+    "id": "agent_011CaBma4M22Nhon26GVfMV9",
+    "name": "Data & Technology Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "4",
+    "description": "IT landscape assessment, AI data readiness scorecard (5 dimensions), technology architecture direction. Directional only."
+  },
+  "uxa": {
+    "id": "agent_011CaBma7r7AA1ENs9HBNEEP",
+    "name": "UX & Customer Experience Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "4",
+    "description": "Customer journey maps, AI opportunity mapping across automation/personalisation/prediction/assistance, UX requirements, responsible design."
+  },
+  "sca": {
+    "id": "agent_011CaBmaAPAWiWC6Sw2ttsov",
+    "name": "Stakeholder & Change Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "4",
+    "description": "Stakeholder maps, change readiness assessment, Change Management Plan integrated with roadmap. Output as .pptx."
+  },
+  "isa": {
+    "id": "agent_011CaBmaCF2c2uHPJeBFmwWm",
+    "name": "Insight & Synthesis Agent",
+    "model": "claude-opus-4-6",
+    "tier": "4",
+    "description": "Cross-domain insight crystallisation. Produces Strategic Insight Memo (max 8 points). Runs after all Tier 3+4 work is complete."
+  },
+  "va": {
+    "id": "agent_011CaBmaE6QHD9Ea6SY95dCY",
+    "name": "Visualisation Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "5",
+    "description": "Charts, diagrams, and infographics via Python (matplotlib/plotly) and Mermaid. Maintains Visual Asset Register (SVG/PNG)."
+  },
+  "da": {
+    "id": "agent_011CaBmaFawaqJE6emMC4LsE",
+    "name": "Deck Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "5",
+    "description": "PowerPoint assembly specialist. Embeds Visual Asset Register assets; writes speaker notes; validates via LibreOffice pipeline."
+  },
+  "dp": {
+    "id": "agent_011CaBmaH1XaQ3XX7LcHXNFQ",
+    "name": "Document Production Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "5",
+    "description": "Long-form presentation specialist. Full reports and exec summaries as .pptx using pptxgenjs. Formats approved narrative only."
+  },
+  "pa": {
+    "id": "agent_011CaBmaJTqhpaY7f7qnv1Jp",
+    "name": "Planning Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "5",
+    "description": "Engagement Gantt plan and fixed-fee budget model in Excel (openpyxl). Formula-driven; no hardcoded numbers. One-page Planning Summary."
+  },
+  "km": {
+    "id": "agent_011CaBmaKphNUJGh4EDWnKpp",
+    "name": "Knowledge Manager",
+    "model": "claude-sonnet-4-6",
+    "tier": "6",
+    "description": "Steward of firm IP library. Semantic retrieval at engagement start; structured engagement summary logging at completion."
+  },
+  "bd": {
+    "id": "agent_011CaBmaMsxavaEdC2phroGx",
+    "name": "Business Development Agent",
+    "model": "claude-sonnet-4-6",
+    "tier": "6",
+    "description": "Proposal production engine. Fixed-fee pricing; agent configuration proposals; KM-grounded case studies; 15-page max."
+  }
+}
